@@ -7,6 +7,6 @@ function getRandomColor() {
 
 document.querySelector("body").addEventListener("click", (e) => {
   if (e.target.tagName.toLowerCase() == "li") {
-    e.target.style.backgroundColor = getRandomColor();
+    e.target.style.color = getRandomColor();
   }
 });
